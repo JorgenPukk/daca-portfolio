@@ -57,7 +57,7 @@
 #  
 
 \## Kontaktc
-- \*\*GitHub:\*\* \[github.com/JorgenPukk(https://github.com/sinu-username)
+- \*\*GitHub:\*\* \[github.com/JorgenPukk(https://github.com/jorgenpukk)
 ===
 
 # \- \*\*Email:\*\* jorgenpukk97@gmail.com
