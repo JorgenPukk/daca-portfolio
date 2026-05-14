@@ -1,0 +1,41 @@
+--veergude loendamine
+SELECT COUNT(*) AS veergude arv
+FROM sales; 
+
+--ridade loendamine
+SELECT COUNT(*) AS ridade_arv
+FROM information_schema.columns
+WHERE table_schema = 'public'
+  AND table_name = 'sales'; 
+
+-- puuduv klient päring
+SELECT count(*) AS puuduv_klient    
+FROM sales
+Where customer_id is null 
+
+-- Suurimad tehingud päring
+SELECT  total_price AS summa 
+FROM sales 
+ORDER BY total_price DESC 
+LIMIT 10;
+
+--Väiksemad tehingud päring (tõenäoliselt refund)
+SELECT total_price AS summa
+FROM sales 
+ORDER BY total_price ASC 
+LIMIT 10;
+
+--Väiksemad tehingud (positiivne summa)
+SELECT total_price AS summa
+FROM sales 
+WHERE total_price >=0
+ORDER BY total_price ASC 
+LIMIT 10;
+
+-- Tallinnas tehtud viimased tehingud
+SELECT  
+ total_price AS summa, sale_date AS kuupäev, store_location AS asukoht
+FROM sales 
+WHERE store_location = 'Tallinn'    
+ORDER BY sale_date DESC    
+LIMIT 15; 
