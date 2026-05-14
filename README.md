@@ -45,7 +45,22 @@
 - `week1salesexploration.sql` -- minu SQL päringud
 - `week1_results_screenshot.png` -- tulemuste pilt
 
-# \### Week 2: SQL Andmete Puhastamine
+# Nädal 2: SQL Cleaning -- UrbanStyle'i kliendiandmete puhastamine
+
+## Mida ma tegin
+- Uurisin customers tabelit
+- Leidsin palju erinevaid kirjapilte linnade nimedele. Viisin linnanimed ühele formaadile.
+- Osalesin meeskonna andmemaastiku koostamisel
+
+## Peamised õpid
+- Select , Where, Group BY + Having päringud
+- Grupitöö esitlemine
+
+## Failid
+- `week2customers_cleaning` -- minu SQL päringud
+
+## Meeskonna töö
+- Google slide link: https://docs.google.com/presentation/d/1A8KvN7d0f7EDag7m9cagzEe5bE2fw8dw/edit?slide=id.p1#slide=id.p1
 
 # \- (tulemas...)
 
