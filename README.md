@@ -30,11 +30,20 @@
 
 #  
 
-# \### Week 1: SQL Põhitõed
+# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
 
-# \- (tulemas...)
+## Mida ma tegin
+- Uurisin sales tabelit SQL päringutega
+- Leidsin, et ühest tabelist saab järeldada palju, oleneb milliseid andmeid päringutes rakendada.
+- Osalesin meeskonna andmemaastiku koostamisel
 
-#  
+## Peamised õpid
+- Select, count, where, limit, order by päringud SQL-is
+- Grupitöö ssitlemine
+
+## Failid
+- `week1salesexploration.sql` -- minu SQL päringud
+- `week1_results_screenshot.png` -- tulemuste pilt
 
 # \### Week 2: SQL Andmete Puhastamine
 
