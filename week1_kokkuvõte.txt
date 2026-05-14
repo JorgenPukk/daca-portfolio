@@ -1,0 +1,21 @@
+Nädal: 1          Meeskond: Product          Roll: A
+
+Kokkuvõte: Alustada SQL-iga polegi nii hirmus kui eeldasin. Olenevalt kuidas veergusid valida, saab tabelitest välja lugeda vägagi erinevaid andmeid ja sorteerida vastavalt mõnele teisele kriteeriumile.
+
+Mitu rida on tabelis? Tabelis on 15234 rida
+Millised veerud on olemas? Kokku on "sales" tabelis 11 veergu: sale_id, invoice_id, sale_date, customer_id, product_id, quantity, unit_price, total_price, channel, store_location, payment_method.
+Mis oli üllatav? Olenevalt "SELECT" päringuga valitud veerust on käsklusega, kui ka tingimusega seotult saadud informatsioon vägagi erinev.
+Mis on puudu? Puudu on 1487 klienti.
+
+
+
+
+
+"Ma ei usalda neid andmeid. Kas keegi saab mulle öelda, mis tabelites üldse on? Mitu rida? Mis veerud? Mis on puudu? Ma tahan IGA tabeli kohta eraldi raportit -- enne kui me midagi muud teeme, peame teadma, millised andmed meil on ja mis seisus need on."
+
+
+Mina uurisin sales tabelis antud müügiandmeid. Tabel koosneb 12 veerust ja 15234 reast. Suurim sooritatud ostu summa oli 2170,40 ühikut ja väikseim 15.09 ühikut. Negatiivse summaga tähistatud tehingud on tõenäoliselt tagastused, nende hulgast kõige suurem tagastus on -1405.32 ühikut. Tallinnas tehtud makseid on 5704.
+Tuli ka välja, et puudu on 1487 kliendi kliendiinfo (customer_id).
+
+Küsimusi tekitas see kui pärisin väikseimaid ostusumma väärtusi ja sain vastuseks negatiivsete summade listi, jõudsin järeldusele, et see on tõenäoliselt refund. Muutsin päringut, et annaks vastuse tingimusel, et summa on suurem kui null, see andis vastuseks väikseimad positiivsed väärtused.
+
