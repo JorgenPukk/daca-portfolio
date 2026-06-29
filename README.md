@@ -178,9 +178,9 @@
 
 # \- \*\*Python:\*\* pandas, plotly,
 
-# \- \*\*Visualiseerimine:\*\* Power BI / Streamlit 
+# \- \*\*Visualiseerimine:\*\* Power BI 
 
-# \- \*\*Tööriistad:\*\* Git, GitHub, VS Code
+# \- \*\*Tööriistad:\*\*  GitHub, VS Code
 
 #  
 
