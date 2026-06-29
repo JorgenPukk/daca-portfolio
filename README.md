@@ -47,7 +47,18 @@
 
 # \### Week 2: SQL Andmete Puhastamine
 
-# \- (tulemas...)
+## Mida ma tegin
+- Puhastasin customers tabeli andmeid.
+- Leidsin, et on 128 duplikaatset emaili ja 380 null väärtusega (puuduvat) meiliaadressi.
+
+## Peamised õpid
+- Andmete puhastamine
+- Null väärtuste eemaldamine
+- Kirjapildi muutmine (suured ja väikesed tähed)
+
+## Failid
+-'n2dal2_it'
+- 'week2customers_cleaning.sql'
 
 #  
 
