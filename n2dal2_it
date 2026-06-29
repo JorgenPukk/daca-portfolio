@@ -1,0 +1,33 @@
+1.1
+
+Mitu UNIKAALSET inimest on nimekirjas? 4 unikaalset inimest.
+Millised read on duplikaadid? Read ja 3 ja 5.
+Mille alusel sa otsustad, et kaks rida on duplikaadid — nime või telefoninumbri? Telefoninumbri alusel.
+Kas rida 6 on duplikaat? (Sama nimi, aga erinev number!) Ei ole, telefoninumber on unikaalne.
+
+1.3
+Harjutus 1A
+Mitu erinevat sale_id-d esineb rohkem kui korra? 4013
+Milline sale_id on kõige rohkem duplikeeritud? 2706 ja 4256 
+Mitu koopiat sellel on? 6
+
+Duplikaatide rahaline mõju (vahe): 1 477 279.89
+
+
+1B
+Minu päring:
+SELECT SUM(KOOPIATE_ARV - 1) AS duplikaadid
+FROM (
+    SELECT COUNT(*) AS KOOPIATE_ARV
+    FROM customers
+    GROUP BY email
+    HAVING COUNT(*) > 1
+) AS duplikaatide_arv;
+
+Mitu duplikaatset e-maili on customers tabelis? 509
+Kas duplikaatsetel klientidel on ka erinev nimi? null väärtusega klientitel on erinev nimi.
+Miks see probleem võib tekkida? (nt klient registreeris end mitu korda) Registreeriti konto mitmes kohas (näiteks e-poes ja poes või siis mitu kasutajat tehti sama meiliga)
+
+
+
+
