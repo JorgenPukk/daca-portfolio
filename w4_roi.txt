@@ -1,0 +1,17 @@
+Mina uurisin turunduskampaaniate return of investmenti
+8193 unikaalset klienti kõigi kategooriate peale ja 80 nende hulgast on unikaalset klienti null väärtusega (anonüümsed) kategooria all.
+
+8113 klienti kategoriseeritud. Kõige rohkem kliente on kategoorias google_organic. Kõige vähem kategoorias null ehk anonüümseid kliente.
+
+Keskmine total_price kliendi kohta on 2534.1 ühikut
+Kõige tulusamad kategooriad on google_organic (5464 kliendi kohta) ja email_campaign (5352 kliendi kohta) kategooriate all.
+
+
+
+1. Koosta Kristi esitlus. 
+
+
+Efektiivseim kanal oli Google organic. Keskmine käive kliendi kohta 2024 aasta lõikes oli 1791 eurot. Kõige edukam kuu kogukäibe osas oli detsember. Sellest võib teha järelduse Kristile, et Jõulude ajal on kampaaniad kõige tõhusamad.
+Keskmiselt tehti tehinguid iga kuu 199 erineva kliendi poolt. Selles osas oli kõige edukam 2024. aasta Juuli kuu 248 kliendiga. 
+Nende tehingute hulgast tegid keskmiselt 109 uut klienti tehingu iga kuu. Kõige edukam oli esimene kvartal, eriti Jaanuar 164 uue kliendiga.
+Kõige nõrgem kategooria oli instagram_ads. Keskmiselt tõi juurde 9 klienti iga kuu.
