@@ -70,7 +70,7 @@
 - Liitsin kokku customers ta inventory tabelid Left JOIN abil
 - Lugesin andmeid product_id alusel mõlemas tabelist
 
-#Week 4: SQL Aggregation
+# Week 4: SQL Aggregation
 
 #Peamised õpid
 -Inventuuri statistika
@@ -81,8 +81,59 @@
 - Kasutasin avg, group by + having funktsioone
 
 
-#Week 5: PowerBI visualisation
+# Week 5: PowerBI visualisation
 
+# Peamised õpid
+- Tabelise lisamine ja üendamine supabasega
+- Filtrite lisamine
+- Urbanstyle värvistruktuuri lisamine
+
+# Mida tegin
+- Leidsin äritõlgenduse Liis-ile
+- Tegin tulpdiagrammi ja sektordiagrammi andmete põhjal
+
+
+# Failid
+- 'w5bi.pbix'
+
+
+### Week 6: Data storytelling
+
+# Peamised õpid
+- Lehepõhised filtrid
+- Leidsin e-poe andmete loo
+
+# Mida tegin
+- Lisasin page lever filtri
+- Tegin 3 diagrammi e-poe andmete põhjal (käive, top tooted jne)
+
+# Failid
+- 'w5bi_roll_c.pbix'
+
+
+
+# Week 7: Python Pandas
+
+# Peamised õpid
+-VSCode ühendamine Supabase-ga
+-csv failide loomine
+
+# Mida tegin
+- Importisin andmed Supabasest VSCode keskkonda
+- Tekitasin turvalisuse huvides dotenv faili
+- Lisasin Sales ja Customers tabelid
+- Merge käsklusega liitsin tabelid
+
+# Week 8: Python API
+
+# Peamised õpid
+- Supabasega liitmine
+- Automatiseerimise alused
+
+# Mida tegin
+- Tegin transform.py faili
+- Muutsin kuupäevade formaadi programmile loetavaks
+- Leidsin koondandmed arvutuste teel
 
 
 # \## Oskused
