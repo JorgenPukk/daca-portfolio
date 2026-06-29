@@ -28,9 +28,15 @@
 
 # \- Supabase seadistamine ✅
 
-#  
+# \- VsCode seadistamine ✅
 
-# Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
+# \- Python seadistamine ✅
+
+# \- PowerBI seadistamine ✅
+
+# \- NoteBookLM seadistamine ✅
+
+# Nädal 1: SQL Basics 
 
 ## Mida ma tegin
 - Uurisin sales tabelit SQL päringutega
@@ -39,13 +45,17 @@
 
 ## Peamised õpid
 - Select, count, where, limit, order by päringud SQL-is
-- Grupitöö ssitlemine
+- Grupitöö esitlemine
+
+# Slaidid
+
+- 'https://docs.google.com/presentation/d/1dy4WZY9-amFs1SLXhjyp3hn9sgC6R1XiVZKb0keOdTw/edit?slide=id.p#slide=id.p'
 
 ## Failid
 - `week1salesexploration.sql` -- minu SQL päringud
 - `week1_results_screenshot.png` -- tulemuste pilt
 
-# Week 2: SQL Andmete Puhastamine
+# Week 2: SQL Data cleaning
 
 ## Mida ma tegin
 - Puhastasin customers tabeli andmeid.
@@ -55,6 +65,9 @@
 - Andmete puhastamine
 - Null väärtuste eemaldamine
 - Kirjapildi muutmine (suured ja väikesed tähed)
+
+# Slaidid
+- 'https://docs.google.com/presentation/d/1A8KvN7d0f7EDag7m9cagzEe5bE2fw8dw/edit?slide=id.p1#slide=id.p1'
 
 ## Failid
 -'n2dal2_it'
@@ -66,9 +79,13 @@
 - Tabelite liitmine Join funktsiooni abil
 - Andmete pärimine mitmest tabelist
 
-#Mida tegin
+# Mida ma tegin
 - Liitsin kokku customers ta inventory tabelid Left JOIN abil
 - Lugesin andmeid product_id alusel mõlemas tabelist
+- Tõin välja laoseisu ja murekohad
+
+# Slaidid
+- 'https://docs.google.com/presentation/d/1_XV9rattaz3KDWFpchCHEJLrqbvXODSJJUfl8Y793Mg/edit?slide=id.p#slide=id.p'
 
 # Week 4: SQL Aggregation
 
@@ -77,20 +94,28 @@
 -Leidsin keskmise tellimuse väärtused
 -Koondandmete leidmine aja lõikes
 
-#Mida tegin
-- Kasutasin avg, group by + having funktsioone
+# Mida tegin
+- avg funktsioonid
+- group by + having funktsioonid
+- date trunc filter
+
+# Slaidid
+-'https://docs.google.com/presentation/d/1d_Kse5csm-8SxNL4vULd8zEjzDnpZsU9GCmHDmwn1n0/edit?slide=id.p#slide=id.p'
 
 
 # Week 5: PowerBI visualisation
 
 # Peamised õpid
-- Tabelise lisamine ja üendamine supabasega
+- Tabelite lisamine ja üendamine supabasega
 - Filtrite lisamine
 - Urbanstyle värvistruktuuri lisamine
 
 # Mida tegin
 - Leidsin äritõlgenduse Liis-ile
 - Tegin tulpdiagrammi ja sektordiagrammi andmete põhjal
+
+# Slaidid
+- 'https://docs.google.com/presentation/d/1WJQjI_MESoemuIskkJp-3bl7uqwxKFfhvFuNlfggtp4/edit?slide=id.p#slide=id.p'
 
 
 # Failid
@@ -101,11 +126,16 @@
 
 # Peamised õpid
 - Lehepõhised filtrid
-- Leidsin e-poe andmete loo
+- Lõin e-poe andmete loo
+- PowerBI navigeerimine
 
 # Mida tegin
 - Lisasin page lever filtri
-- Tegin 3 diagrammi e-poe andmete põhjal (käive, top tooted jne)
+- Tegin 3 diagrammi e-poe andmete põhjal (käive, top tooted, kasvukõver)
+- KPI kaart põhiliste näitajatega
+
+# Slaidid
+- 'https://docs.google.com/presentation/d/1yxUbckxenA22lvdZTj7cDzkRZiqxVss4P9S3SuMcmtY/edit?slide=id.p#slide=id.p'
 
 # Failid
 - 'w5bi_roll_c.pbix'
@@ -128,12 +158,13 @@
 
 # Peamised õpid
 - Supabasega liitmine
-- Automatiseerimise alused
+- Automatiseerimine
+- Pipeline loomine
 
 # Mida tegin
 - Tegin transform.py faili
 - Muutsin kuupäevade formaadi programmile loetavaks
-- Leidsin koondandmed arvutuste teel
+- Leidsin koondandmed arvutuste teel (käive, klientide arv, keskmise tellimuse väärtus)
 
 
 # \## Oskused
@@ -142,15 +173,15 @@
 
 # \- \*\*SQL:\*\* PostgreSQL, Supabase
 
-# \- \*\*Python:\*\* pandas, plotly (tulemas...)
+# \- \*\*Python:\*\* pandas, plotly,
 
-# \- \*\*Visualiseerimine:\*\* Power BI / Streamlit (tulemas...)
+# \- \*\*Visualiseerimine:\*\* Power BI / Streamlit 
 
 # \- \*\*Tööriistad:\*\* Git, GitHub, VS Code
 
 #  
 
-\## Kontaktc
+\## Kontakt
 - \*\*GitHub:\*\* \[github.com/JorgenPukk(https://github.com/jorgenpukk)
 ===
 
