@@ -52,7 +52,7 @@
 - 'https://docs.google.com/presentation/d/1dy4WZY9-amFs1SLXhjyp3hn9sgC6R1XiVZKb0keOdTw/edit?slide=id.p#slide=id.p'
 
 ## Failid
-- - [`week1salesexploration.sql`](week1salesexploration.sql) -- minu SQL päringud
+- - [`week1salesexploration.sql`](week1salesexploration) -- minu SQL päringud
 - `week1_results_screenshot.png` -- tulemuste pilt
 
 # Week 2: SQL Data cleaning
