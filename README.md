@@ -93,7 +93,7 @@
 # Week 4: SQL Aggregation
 
 ## Peamised õpid
--Inventuuri statistika
+-Turunudkampaaniate Return of investmenti uurimine
 -Leidsin keskmise tellimuse väärtused
 -Koondandmete leidmine aja lõikes
 
@@ -101,9 +101,14 @@
 - avg funktsioonid
 - group by + having funktsioonid
 - date trunc filter
+- Leidsin kampaaniate kasumlikkuse
+- Uurisin effektiivsemaid kanaleid
 
 ## Slaidid
 -'https://docs.google.com/presentation/d/1d_Kse5csm-8SxNL4vULd8zEjzDnpZsU9GCmHDmwn1n0/edit?slide=id.p#slide=id.p'
+
+##Failid
+- 'w4_roi'
 
 
 # Week 5: PowerBI visualisation
