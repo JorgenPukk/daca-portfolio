@@ -157,6 +157,9 @@
 - Lisasin Sales ja Customers tabelid
 - Merge käsklusega liitsin tabelid
 
+## Failid
+- ['n7_a'](n7_a)
+
 # Week 8: Python API
 
 ## Peamised õpid
