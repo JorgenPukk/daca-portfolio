@@ -169,6 +169,9 @@
 - Muutsin kuupäevade formaadi programmile loetavaks
 - Leidsin koondandmed arvutuste teel (käive, klientide arv, keskmise tellimuse väärtus)
 
+## Failid
+- [`transform.py`](transform.py)
+
 ## Oskused
 
 - **SQL:** PostgreSQL, Supabase
