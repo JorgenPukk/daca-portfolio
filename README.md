@@ -36,7 +36,7 @@
 
 # \- NoteBookLM seadistamine ✅
 
-# Nädal 1: SQL Basics 
+# NWeek 1: SQL Basics 
 
 ## Mida ma tegin
 - Uurisin sales tabelit SQL päringutega
