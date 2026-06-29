@@ -1,12 +1,12 @@
-# \# DACA Portfoolio
+#  DACA Portfoolio
 
 #  
 
-# \Programm:\*\* Data Analyst Career Accelerator (DACA)
+# Programm: Data Analyst Career Accelerator (DACA)
 
-# \Osaleja:\*\* Jörgen Pukk
+# Osaleja: Jörgen Pukk
 
-# \Algus:\*\* 27.04.2026
+# Algus: 27.04.2026
 
 #  
 
