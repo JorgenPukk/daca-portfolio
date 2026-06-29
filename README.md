@@ -158,7 +158,7 @@
 - Merge käsklusega liitsin tabelid
 
 ## Failid
-- ['n7_a'](n7_a)
+- [n7_a](n7_a.ipynb)
 
 # Week 8: Python API
 
