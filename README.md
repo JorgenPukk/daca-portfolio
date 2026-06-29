@@ -1,6 +1,6 @@
 #  DACA Portfoolio
 
-#  
+#  
 
 # Programm: Data Analyst Career Accelerator (DACA)
 
@@ -8,19 +8,19 @@
 
 # Algus: 27.04.2026
 
-#  
+#  
 
 #  Kirjeldus
 
-#  
+#  
 
 # See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 
-#  
+#  
 
 #  Projektid
 
-#  
+#  
 
 #  Week 0: Onboarding
 
@@ -52,8 +52,8 @@
 - 'https://docs.google.com/presentation/d/1dy4WZY9-amFs1SLXhjyp3hn9sgC6R1XiVZKb0keOdTw/edit?slide=id.p#slide=id.p'
 
 ## Failid
-- - [`week1salesexploration.sql`](week1salesexploration) -- minu SQL päringud
-- `week1_results_screenshot.png` -- tulemuste pilt
+- [`week1salesexploration.sql`](week1salesexploration.sql)
+- [`week1_results_screenshot.png`](week1_results_screenshot.png)
 
 # Week 2: SQL Data cleaning
 
@@ -70,10 +70,10 @@
 - 'https://docs.google.com/presentation/d/1A8KvN7d0f7EDag7m9cagzEe5bE2fw8dw/edit?slide=id.p1#slide=id.p1'
 
 ## Failid
--'n2dal2_it'
-- 'week2customers_cleaning.sql'
+- [`week2_it`](week2_it)
+- [`week2customers_cleaning.sql`](week2customers_cleaning.sql)
 
-# Week 3: SQL JOINs
+# Week 3: SQL JOINs
 
 ## Peamised õpid
 - Tabelite liitmine Join funktsiooni abil
@@ -88,14 +88,14 @@
 - 'https://docs.google.com/presentation/d/1_XV9rattaz3KDWFpchCHEJLrqbvXODSJJUfl8Y793Mg/edit?slide=id.p#slide=id.p'
 
 ## Failid
-- 'week3_roll_c_tooted_inventuur.sql'
+- [`week3_roll_c_tooted_inventuur.sql`](week3_roll_c_tooted_inventuur.sql)
 
 # Week 4: SQL Aggregation
 
 ## Peamised õpid
--Turunudkampaaniate Return of investmenti uurimine
--Leidsin keskmise tellimuse väärtused
--Koondandmete leidmine aja lõikes
+- Turunudkampaaniate Return of investmenti uurimine
+- Leidsin keskmise tellimuse väärtused
+- Koondandmete leidmine aja lõikes
 
 ## Mida tegin
 - avg funktsioonid
@@ -105,11 +105,10 @@
 - Uurisin effektiivsemaid kanaleid
 
 ## Slaidid
--'https://docs.google.com/presentation/d/1d_Kse5csm-8SxNL4vULd8zEjzDnpZsU9GCmHDmwn1n0/edit?slide=id.p#slide=id.p'
+- 'https://docs.google.com/presentation/d/1d_Kse5csm-8SxNL4vULd8zEjzDnpZsU9GCmHDmwn1n0/edit?slide=id.p#slide=id.p'
 
-##Failid
-- 'w4_roi.txt'
-
+## Failid
+- [`w4_roi.txt`](w4_roi.txt)
 
 # Week 5: PowerBI visualisation
 
@@ -125,10 +124,8 @@
 ## Slaidid
 - 'https://docs.google.com/presentation/d/1WJQjI_MESoemuIskkJp-3bl7uqwxKFfhvFuNlfggtp4/edit?slide=id.p#slide=id.p'
 
-
 ## Failid
-- 'w5bi.pbix'
-
+- [`w5bi.pbix`](w5bi.pbix)
 
 # Week 6: Data storytelling
 
@@ -146,15 +143,13 @@
 - 'https://docs.google.com/presentation/d/1yxUbckxenA22lvdZTj7cDzkRZiqxVss4P9S3SuMcmtY/edit?slide=id.p#slide=id.p'
 
 ## Failid
-- 'w5bi_roll_c.pbix'
-
-
+- [`w5bi_roll_c.pbix`](w5bi_roll_c.pbix)
 
 # Week 7: Python Pandas
 
 ## Peamised õpid
--VSCode ühendamine Supabase-ga
--csv failide loomine
+- VSCode ühendamine Supabase-ga
+- csv failide loomine
 
 ## Mida tegin
 - Importisin andmed Supabasest VSCode keskkonda
@@ -174,26 +169,17 @@
 - Muutsin kuupäevade formaadi programmile loetavaks
 - Leidsin koondandmed arvutuste teel (käive, klientide arv, keskmise tellimuse väärtus)
 
+## Oskused
 
-# \## Oskused
+- **SQL:** PostgreSQL, Supabase
+- **Python:** pandas, plotly
+- **Visualiseerimine:** Power BI 
+- **Tööriistad:** GitHub, VS Code
 
-#  
+## Kontakt
+- **GitHub:** [github.com/JorgenPukk](https://github.com/jorgenpukk)
+- **Email:** jorgenpukk97@gmail.com
 
-# \- \*\*SQL:\*\* PostgreSQL, Supabase
-
-# \- \*\*Python:\*\* pandas, plotly,
-
-# \- \*\*Visualiseerimine:\*\* Power BI 
-
-# \- \*\*Tööriistad:\*\*  GitHub, VS Code
-
-#  
-
-\## Kontakt
-- \*\*GitHub:\*\* \[github.com/JorgenPukk(https://github.com/jorgenpukk)
-===
-
-# \- \*\*Email:\*\* jorgenpukk97@gmail.com
 
 
 
