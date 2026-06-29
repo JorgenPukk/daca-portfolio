@@ -171,6 +171,7 @@
 
 ## Failid
 - [`transform.py`](transform.py)
+- [`pipeline.py`](pipeline.py)
 
 ## Oskused
 
