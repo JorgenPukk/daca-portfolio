@@ -73,7 +73,7 @@
 -'n2dal2_it'
 - 'week2customers_cleaning.sql'
 
-#  Week 3: SQL JOINs
+# Week 3: SQL JOINs
 
 ## Peamised õpid
 - Tabelite liitmine Join funktsiooni abil
@@ -125,7 +125,7 @@
 - 'w5bi.pbix'
 
 
-### Week 6: Data storytelling
+# Week 6: Data storytelling
 
 ## Peamised õpid
 - Lehepõhised filtrid
