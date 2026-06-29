@@ -45,7 +45,7 @@
 - `week1salesexploration.sql` -- minu SQL päringud
 - `week1_results_screenshot.png` -- tulemuste pilt
 
-# \### Week 2: SQL Andmete Puhastamine
+# Week 2: SQL Andmete Puhastamine
 
 ## Mida ma tegin
 - Puhastasin customers tabeli andmeid.
@@ -60,7 +60,30 @@
 -'n2dal2_it'
 - 'week2customers_cleaning.sql'
 
-#  
+#  Week 3: SQL JOINs
+
+# Peamised õpid
+- Tabelite liitmine Join funktsiooni abil
+- Andmete pärimine mitmest tabelist
+
+#Mida tegin
+- Liitsin kokku customers ta inventory tabelid Left JOIN abil
+- Lugesin andmeid product_id alusel mõlemas tabelist
+
+#Week 4: SQL Aggregation
+
+#Peamised õpid
+-Inventuuri statistika
+-Leidsin keskmise tellimuse väärtused
+-Koondandmete leidmine aja lõikes
+
+#Mida tegin
+- Kasutasin avg, group by + having funktsioone
+
+
+#Week 5: PowerBI visualisation
+
+
 
 # \## Oskused
 
