@@ -70,7 +70,6 @@
 - 'https://docs.google.com/presentation/d/1A8KvN7d0f7EDag7m9cagzEe5bE2fw8dw/edit?slide=id.p1#slide=id.p1'
 
 ## Failid
-- [`week2_it`](week2_it)
 - [`week2customers_cleaning.sql`](week2customers_cleaning.sql)
 
 # Week 3: SQL JOINs
