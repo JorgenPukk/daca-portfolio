@@ -10,7 +10,7 @@
 
 #  
 
-# \## Kirjeldus
+# \ Kirjeldus
 
 #  
 
@@ -18,11 +18,11 @@
 
 #  
 
-# \## Projektid
+# \ Projektid
 
 #  
 
-# \### Week 0: Onboarding
+# \ Week 0: Onboarding
 
 # \- GitHub seadistamine ✅
 
