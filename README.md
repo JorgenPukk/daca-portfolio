@@ -47,7 +47,7 @@
 - Select, count, where, limit, order by päringud SQL-is
 - Grupitöö esitlemine
 
-# Slaidid
+## Slaidid
 
 - 'https://docs.google.com/presentation/d/1dy4WZY9-amFs1SLXhjyp3hn9sgC6R1XiVZKb0keOdTw/edit?slide=id.p#slide=id.p'
 
@@ -66,7 +66,7 @@
 - Null väärtuste eemaldamine
 - Kirjapildi muutmine (suured ja väikesed tähed)
 
-# Slaidid
+## Slaidid
 - 'https://docs.google.com/presentation/d/1A8KvN7d0f7EDag7m9cagzEe5bE2fw8dw/edit?slide=id.p1#slide=id.p1'
 
 ## Failid
@@ -75,83 +75,83 @@
 
 #  Week 3: SQL JOINs
 
-# Peamised õpid
+## Peamised õpid
 - Tabelite liitmine Join funktsiooni abil
 - Andmete pärimine mitmest tabelist
 
-# Mida ma tegin
+## Mida ma tegin
 - Liitsin kokku customers ta inventory tabelid Left JOIN abil
 - Lugesin andmeid product_id alusel mõlemas tabelist
 - Tõin välja laoseisu ja murekohad
 
-# Slaidid
+## Slaidid
 - 'https://docs.google.com/presentation/d/1_XV9rattaz3KDWFpchCHEJLrqbvXODSJJUfl8Y793Mg/edit?slide=id.p#slide=id.p'
 
-# Failid
+## Failid
 - 'week3_roll_c_tooted_inventuur.sql'
 
 # Week 4: SQL Aggregation
 
-#Peamised õpid
+## Peamised õpid
 -Inventuuri statistika
 -Leidsin keskmise tellimuse väärtused
 -Koondandmete leidmine aja lõikes
 
-# Mida tegin
+## Mida tegin
 - avg funktsioonid
 - group by + having funktsioonid
 - date trunc filter
 
-# Slaidid
+## Slaidid
 -'https://docs.google.com/presentation/d/1d_Kse5csm-8SxNL4vULd8zEjzDnpZsU9GCmHDmwn1n0/edit?slide=id.p#slide=id.p'
 
 
 # Week 5: PowerBI visualisation
 
-# Peamised õpid
+## Peamised õpid
 - Tabelite lisamine ja üendamine supabasega
 - Filtrite lisamine
 - Urbanstyle värvistruktuuri lisamine
 
-# Mida tegin
+## Mida tegin
 - Leidsin äritõlgenduse Liis-ile
 - Tegin tulpdiagrammi ja sektordiagrammi andmete põhjal
 
-# Slaidid
+## Slaidid
 - 'https://docs.google.com/presentation/d/1WJQjI_MESoemuIskkJp-3bl7uqwxKFfhvFuNlfggtp4/edit?slide=id.p#slide=id.p'
 
 
-# Failid
+## Failid
 - 'w5bi.pbix'
 
 
 ### Week 6: Data storytelling
 
-# Peamised õpid
+## Peamised õpid
 - Lehepõhised filtrid
 - Lõin e-poe andmete loo
 - PowerBI navigeerimine
 
-# Mida tegin
+## Mida tegin
 - Lisasin page lever filtri
 - Tegin 3 diagrammi e-poe andmete põhjal (käive, top tooted, kasvukõver)
 - KPI kaart põhiliste näitajatega
 
-# Slaidid
+## Slaidid
 - 'https://docs.google.com/presentation/d/1yxUbckxenA22lvdZTj7cDzkRZiqxVss4P9S3SuMcmtY/edit?slide=id.p#slide=id.p'
 
-# Failid
+## Failid
 - 'w5bi_roll_c.pbix'
 
 
 
 # Week 7: Python Pandas
 
-# Peamised õpid
+## Peamised õpid
 -VSCode ühendamine Supabase-ga
 -csv failide loomine
 
-# Mida tegin
+## Mida tegin
 - Importisin andmed Supabasest VSCode keskkonda
 - Tekitasin turvalisuse huvides dotenv faili
 - Lisasin Sales ja Customers tabelid
@@ -159,12 +159,12 @@
 
 # Week 8: Python API
 
-# Peamised õpid
+## Peamised õpid
 - Supabasega liitmine
 - Automatiseerimine
 - Pipeline loomine
 
-# Mida tegin
+## Mida tegin
 - Tegin transform.py faili
 - Muutsin kuupäevade formaadi programmile loetavaks
 - Leidsin koondandmed arvutuste teel (käive, klientide arv, keskmise tellimuse väärtus)
