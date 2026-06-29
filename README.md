@@ -87,6 +87,9 @@
 # Slaidid
 - 'https://docs.google.com/presentation/d/1_XV9rattaz3KDWFpchCHEJLrqbvXODSJJUfl8Y793Mg/edit?slide=id.p#slide=id.p'
 
+# Failid
+- 'week3_roll_c_tooted_inventuur.sql'
+
 # Week 4: SQL Aggregation
 
 #Peamised õpid
