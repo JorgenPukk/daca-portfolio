@@ -1,41 +1,498 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>DACA Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DACA Portfoolio - Jörgen Pukk</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header-info {
+            font-size: 1.1em;
+            opacity: 0.95;
+            margin: 10px 0;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section-intro {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section-intro h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .week {
+            background: #f8f9fa;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            border-left: 5px solid #667eea;
+        }
+
+        .week h2 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .week-section {
+            margin-bottom: 15px;
+        }
+
+        .week-section h3 {
+            color: #555;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            margin-top: 15px;
+        }
+
+        .week-section:first-child h3 {
+            margin-top: 0;
+        }
+
+        .week-section ul {
+            list-style-position: inside;
+            margin-left: 10px;
+        }
+
+        .week-section li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .week-section a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .week-section a:hover {
+            text-decoration: underline;
+        }
+
+        .skills {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .skills h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .skill-category {
+            margin-bottom: 15px;
+        }
+
+        .skill-category strong {
+            color: #555;
+            display: inline-block;
+            min-width: 150px;
+        }
+
+        .skill-category span {
+            color: #666;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 25px;
+            border-top: 1px solid #ddd;
+            border-radius: 0;
+        }
+
+        .footer h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .footer-info {
+            margin-bottom: 10px;
+        }
+
+        .footer-info a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .footer-info a:hover {
+            text-decoration: underline;
+        }
+
+        .checkmark {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .week {
+                padding: 15px;
+            }
+
+            .skill-category strong {
+                min-width: 100px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>DACA Portfoolio</h1>
-  
-  <h2>Programm: Data Analyst Career Accelerator (DACA)</h2>
-  <p><strong>Osaleja:</strong> Jörgen Pukk</p>
-  <p><strong>Algus:</strong> 27.04.2026</p>
-  
-  <h2>Kirjeldus</h2>
-  <p>See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.</p>
-  
-  <h2>Projektid</h2>
-  <!-- Add your weeks here -->
-  
-  <h2>Oskused</h2>
-  <ul>
-    <li><strong>SQL:</strong> PostgreSQL, Supabase</li>
-    <li><strong>Python:</strong> pandas, plotly</li>
-    <li><strong>Visualiseerimine:</strong> Power BI</li>
-    <li><strong>Tööriistad:</strong> GitHub, VS Code</li>
-  </ul>
-  
-  <h2>Kontakt</h2>
-  <ul>
-    <li><strong>GitHub:</strong> <a href="https://github.com/jorgenpukk">github.com/JorgenPukk</a></li>
-    <li><strong>Email:</strong> jorgenpukk97@gmail.com</li>
-  </ul>
+    <div class="container">
+        <div class="header">
+            <h1>DACA Portfoolio</h1>
+            <div class="header-info">Programm: Data Analyst Career Accelerator (DACA)</div>
+            <div class="header-info">Osaleja: Jörgen Pukk</div>
+            <div class="header-info">Algus: 27.04.2026</div>
+        </div>
+
+        <div class="content">
+            <!-- Kirjeldus -->
+            <div class="section-intro">
+                <h2>Kirjeldus</h2>
+                <p>See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.</p>
+            </div>
+
+            <!-- Projektid Title -->
+            <h2 style="color: #667eea; margin-bottom: 20px;">Projektid</h2>
+
+            <!-- Week 0 -->
+            <div class="week">
+                <h2>Week 0: Onboarding</h2>
+                <ul>
+                    <li>GitHub seadistamine <span class="checkmark">✅</span></li>
+                    <li>Supabase seadistamine <span class="checkmark">✅</span></li>
+                    <li>VsCode seadistamine <span class="checkmark">✅</span></li>
+                    <li>Python seadistamine <span class="checkmark">✅</span></li>
+                    <li>PowerBI seadistamine <span class="checkmark">✅</span></li>
+                    <li>NoteBookLM seadistamine <span class="checkmark">✅</span></li>
+                </ul>
+            </div>
+
+            <!-- Week 1 -->
+            <div class="week">
+                <h2>Week 1: SQL Basics</h2>
+                <div class="week-section">
+                    <h3>Mida ma tegin</h3>
+                    <ul>
+                        <li>Uurisin sales tabelit SQL päringutega</li>
+                        <li>Leidsin, et ühest tabelist saab järeldada palju, oleneb milliseid andmeid päringutes rakendada.</li>
+                        <li>Osalesin meeskonna andmemaastiku koostamisel</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>Select, count, where, limit, order by päringud SQL-is</li>
+                        <li>Grupitöö esitlemine</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Slaidid</h3>
+                    <p><a href="https://docs.google.com/presentation/d/1dy4WZY9-amFs1SLXhjyp3hn9sgC6R1XiVZKb0keOdTw/edit?slide=id.p#slide=id.p" target="_blank">Vaata esitlust →</a></p>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="week1salesexploration.sql">week1salesexploration.sql</a></li>
+                        <li><a href="week1_results_screenshot.png">week1_results_screenshot.png</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 2 -->
+            <div class="week">
+                <h2>Week 2: SQL Data cleaning</h2>
+                <div class="week-section">
+                    <h3>Mida ma tegin</h3>
+                    <ul>
+                        <li>Puhastasin customers tabeli andmeid.</li>
+                        <li>Leidsin, et on 128 duplikaatset emaili ja 380 null väärtusega (puuduvat) meiliaadressi.</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>Andmete puhastamine</li>
+                        <li>Null väärtuste eemaldamine</li>
+                        <li>Kirjapildi muutmine (suured ja väikesed tähed)</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Slaidid</h3>
+                    <p><a href="https://docs.google.com/presentation/d/1A8KvN7d0f7EDag7m9cagzEe5bE2fw8dw/edit?slide=id.p1#slide=id.p1" target="_blank">Vaata esitlust →</a></p>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="week2customers_cleaning.sql">week2customers_cleaning.sql</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 3 -->
+            <div class="week">
+                <h2>Week 3: SQL JOINs</h2>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>Tabelite liitmine Join funktsiooni abil</li>
+                        <li>Andmete pärimine mitmest tabelist</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Mida ma tegin</h3>
+                    <ul>
+                        <li>Liitsin kokku customers ja inventory tabelid Left JOIN abil</li>
+                        <li>Lugesin andmeid product_id alusel mõlemas tabelist</li>
+                        <li>Tõin välja laoseisu ja murekohad</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Slaidid</h3>
+                    <p><a href="https://docs.google.com/presentation/d/1_XV9rattaz3KDWFpchCHEJLrqbvXODSJJUfl8Y793Mg/edit?slide=id.p#slide=id.p" target="_blank">Vaata esitlust →</a></p>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="week3_roll_c_tooted_inventuur.sql">week3_roll_c_tooted_inventuur.sql</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 4 -->
+            <div class="week">
+                <h2>Week 4: SQL Aggregation</h2>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>Turunudkampaaniate Return of investmenti uurimine</li>
+                        <li>Leidsin keskmise tellimuse väärtused</li>
+                        <li>Koondandmete leidmine aja lõikes</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Mida tegin</h3>
+                    <ul>
+                        <li>avg funktsioonid</li>
+                        <li>group by + having funktsioonid</li>
+                        <li>date trunc filter</li>
+                        <li>Leidsin kampaaniate kasumlikkuse</li>
+                        <li>Uurisin effektiivsemaid kanaleid</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Slaidid</h3>
+                    <p><a href="https://docs.google.com/presentation/d/1d_Kse5csm-8SxNL4vULd8zEjzDnpZsU9GCmHDmwn1n0/edit?slide=id.p#slide=id.p" target="_blank">Vaata esitlust →</a></p>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="w4_roi.txt">w4_roi.txt</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 5 -->
+            <div class="week">
+                <h2>Week 5: PowerBI visualisation</h2>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>Tabelite lisamine ja üendamine supabasega</li>
+                        <li>Filtrite lisamine</li>
+                        <li>Urbanstyle värvistruktuuri lisamine</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Mida tegin</h3>
+                    <ul>
+                        <li>Leidsin äritõlgenduse Liis-ile</li>
+                        <li>Tegin tulpdiagrammi ja sektordiagrammi andmete põhjal</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Slaidid</h3>
+                    <p><a href="https://docs.google.com/presentation/d/1WJQjI_MESoemuIskkJp-3bl7uqwxKFfhvFuNlfggtp4/edit?slide=id.p#slide=id.p" target="_blank">Vaata esitlust →</a></p>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="w5bi.pbix">w5bi.pbix</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 6 -->
+            <div class="week">
+                <h2>Week 6: Data storytelling</h2>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>Lehepõhised filtrid</li>
+                        <li>Lõin e-poe andmete loo</li>
+                        <li>PowerBI navigeerimine</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Mida tegin</h3>
+                    <ul>
+                        <li>Lisasin page lever filtri</li>
+                        <li>Tegin 3 diagrammi e-poe andmete põhjal (käive, top tooted, kasvukõver)</li>
+                        <li>KPI kaart põhiliste näitajatega</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Slaidid</h3>
+                    <p><a href="https://docs.google.com/presentation/d/1yxUbckxenA22lvdZTj7cDzkRZiqxVss4P9S3SuMcmtY/edit?slide=id.p#slide=id.p" target="_blank">Vaata esitlust →</a></p>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="w5bi_roll_c.pbix">w5bi_roll_c.pbix</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 7 -->
+            <div class="week">
+                <h2>Week 7: Python Pandas</h2>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>VSCode ühendamine Supabase-ga</li>
+                        <li>csv failide loomine</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Mida tegin</h3>
+                    <ul>
+                        <li>Importisin andmed Supabasest VSCode keskkonda</li>
+                        <li>Tekitasin turvalisuse huvides dotenv faili</li>
+                        <li>Lisasin Sales ja Customers tabelid</li>
+                        <li>Merge käsklusega liitsin tabelid</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="n7_a.ipynb">n7_a.ipynb</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Week 8 -->
+            <div class="week">
+                <h2>Week 8: Python API</h2>
+                <div class="week-section">
+                    <h3>Peamised õpid</h3>
+                    <ul>
+                        <li>Supabasega liitmine</li>
+                        <li>Automatiseerimine</li>
+                        <li>Pipeline loomine</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Mida tegin</h3>
+                    <ul>
+                        <li>Tegin transform.py faili</li>
+                        <li>Muutsin kuupäevade formaadi programmile loetavaks</li>
+                        <li>Leidsin koondandmed arvutuste teel (käive, klientide arv, keskmise tellimuse väärtus)</li>
+                    </ul>
+                </div>
+                <div class="week-section">
+                    <h3>Failid</h3>
+                    <ul>
+                        <li><a href="transform.py">transform.py</a></li>
+                        <li><a href="pipeline.py">pipeline.py</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills">
+                <h2>Oskused</h2>
+                <div class="skill-category">
+                    <strong>SQL:</strong>
+                    <span>PostgreSQL, Supabase</span>
+                </div>
+                <div class="skill-category">
+                    <strong>Python:</strong>
+                    <span>pandas, plotly</span>
+                </div>
+                <div class="skill-category">
+                    <strong>Visualiseerimine:</strong>
+                    <span>Power BI</span>
+                </div>
+                <div class="skill-category">
+                    <strong>Tööriistad:</strong>
+                    <span>GitHub, VS Code</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <h3>Kontakt</h3>
+            <div class="footer-info">
+                <strong>GitHub:</strong> <a href="https://github.com/jorgenpukk" target="_blank">github.com/JorgenPukk</a>
+            </div>
+            <div class="footer-info">
+                <strong>Email:</strong> <a href="mailto:jorgenpukk97@gmail.com">jorgenpukk97@gmail.com</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
